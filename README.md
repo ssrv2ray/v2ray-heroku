@@ -1,8 +1,6 @@
-# HerokuV2RayHeroku
+# VLESS Heroku
 
-**Heroku。**
-
-**若需部署 V2Ray VLESS，请转到 [vless](https://github.com/bclswl0827/v2ray-heroku/tree/vless) 分支。**
+**Heroku**
 
 ## 概述
 
@@ -10,7 +8,7 @@
 
 部署完成后，每次启动应用时，运行的 V2Ray 将始终为最新版本。
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/ssrv2ray/v2ray-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/ssrv2ray/v2ray-heroku/tree/vless)
 
 ## 部署
 
@@ -18,9 +16,8 @@
 
 | 变量 | 默认值 | 说明 |
 | :--- | :--- | :--- |
-| `ID` | `e34ea1ad-c5b9-4884-8717-3482afe6c33a` | VMess 用户主 ID，用于身份验证，为 UUID 格式 |
-| `AID` | `64` | 为进一步防止被探测所设额外 ID，即 AlterID，范围为 0 至 65535 |
-| `WSPATH` | `/` | WebSocket 所使用的 HTTP 协议路径 |
+| `ID` | `ad806487-2d26-4636-98b6-ab85cc8521f7` | VLESS 用户 ID，用于身份验证，为 UUID 格式 |
+| `WSPATH` | `/` | WebSocket 所使用的 HTTP 协议路径 |e34ea1ad-c5b9-4884-8717-3482afe6c33a
 
 ## 接入 CloudFlare
 
